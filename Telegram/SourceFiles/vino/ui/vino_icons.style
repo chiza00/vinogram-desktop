@@ -1,0 +1,82 @@
+/*
+ * This is the source code of VinoGram for Desktop.
+ *
+ * We do not and cannot prevent the use of our code,
+ * but be respectful and credit the original author.
+ *
+ * Copyright @Radolyn, 2025
+ */
+
+using "ui/colors.palette";
+using "ui/chat/chat.style";
+using "ui/widgets/widgets.style";
+using "dialogs/dialogs.style";
+
+vinoGhostIcon: icon {{ "vino/ghost", menuIconColor }};
+vinoGhostModeGlobalIcon: icon {{ "vino/ghost_mode_global", historyPeerUserpicFg }};
+vinoEditsHistoryIcon: icon {{ "vino/edits_history", menuIconColor }};
+vinoLReadMenuIcon: icon {{ "vino/lread", menuIconColor }};
+vinoSReadMenuIcon: icon {{ "vino/sread", menuIconColor }};
+vinoStreamerModeMenuIcon: icon {{ "vino/streamer", menuIconColor }};
+vinoToBeginningMenuIcon: icon {{ "vino/to_beginning", menuIconColor }};
+vinoRepeatMenuIcon: icon {{ "vino/repeat", menuIconColor }};
+vinoContactsMutualIcon: icon {{ "vino/contacts_mutual", contactsStatusFg }};
+vinoContactsMutualIconOver: icon {{ "vino/contacts_mutual", contactsStatusFgOver }};
+
+messageFieldAttachIcon: icon {{ "vino/message_field/attach", menuIconColor }};
+messageFieldCommandsIcon: icon {{ "vino/message_field/commands", menuIconColor }};
+messageFieldEmojiIcon: icon {{ "vino/message_field/emoji", menuIconColor }};
+messageFieldVoiceIcon: icon {{ "vino/message_field/voice", menuIconColor }};
+messageFieldTTLIcon: icon {{ "vino/message_field/ttl", menuIconColor }};
+messageFieldCocoonAiIcon: icon{
+	{ size(24px, 24px), transparent },
+	{ "chat/ai_letters-20x20", menuIconColor, point(2px, 2px) },
+	{ "chat/ai_star1-20x20", menuIconColor, point(2px, 2px) },
+	{ "chat/ai_star2-20x20", menuIconColor, point(2px, 2px) },
+};
+
+inChannelBadgeIcon: icon {{ "vino/channel", msgInDateFg }};
+inChannelBadgeSelectedIcon: icon {{ "vino/channel", msgInDateFgSelected }};
+outChannelBadgeIcon: icon {{ "vino/channel", msgOutDateFg }};
+outChannelBadgeSelectedIcon: icon {{ "vino/channel", msgOutDateFgSelected }};
+
+infoExteraOfficialBadge: icon {{ "vino/extera_official", profileVerifiedCheckBg }};
+infoExteraSupporterBadge: icon {{ "vino/extera_badge", profileVerifiedCheckBg }};
+
+winEnterWithGuestIcon: icon {{ "vino/ghost_tray", windowFg }};
+
+editedIcon: IconEmoji{
+    icon: icon{{ "vino/edited", windowFg }};
+    padding: margins(0px, 0px, 0px, 0px);
+    useIconColor: false;
+}
+
+deletedIcon: IconEmoji{
+    icon: icon{{ "vino/trash_bin", windowFg }};
+    padding: margins(0px, 0px, 0px, 0px);
+    useIconColor: false;
+}
+
+burntIcon: IconEmoji{
+    icon: icon{{ "vino/burnt", windowFg }};
+    padding: margins(0px, 0px, 0px, 0px);
+    useIconColor: false;
+}
+
+dialogsExteraOfficialIcon: ThreeStateIcon {
+	icon: icon {{ "vino/dialogs_extera_official", dialogsVerifiedIconBg }};
+	over: icon {{ "vino/dialogs_extera_official", dialogsVerifiedIconBgOver }};
+	active: icon {{ "vino/dialogs_extera_official", dialogsVerifiedIconBgActive }};
+}
+dialogsExteraSupporterIcon: ThreeStateIcon {
+	icon: icon {{ "vino/dialogs_extera_supporter", dialogsVerifiedIconBg }};
+	over: icon {{ "vino/dialogs_extera_supporter", dialogsVerifiedIconBgOver }};
+	active: icon {{ "vino/dialogs_extera_supporter", dialogsVerifiedIconBgActive }};
+}
+
+vinoHistoryFileInPlugin: icon {{ "vino/history_file_plugin", historyFileInIconFg }};
+vinoHistoryFileInPluginSelected: icon {{ "vino/history_file_plugin", historyFileInIconFgSelected }};
+vinoHistoryFileOutPlugin: icon {{ "vino/history_file_plugin", historyFileOutIconFg }};
+vinoHistoryFileOutPluginSelected: icon {{ "vino/history_file_plugin", historyFileOutIconFgSelected }};
+
+menuIconClearAttention: icon {{ "menu/clear", menuIconAttentionColor }};

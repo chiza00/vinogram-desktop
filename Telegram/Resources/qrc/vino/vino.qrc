@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/gui">
+        <file alias="art/vino/alt/app.svg">../../art/vino/alt/app.svg</file>
+        <file alias="art/vino/alt/app_icon.ico">../../art/vino/alt/app_icon.ico</file>
+        <file alias="art/vino/bard/app.svg">../../art/vino/bard/app.svg</file>
+        <file alias="art/vino/bard/app_icon.ico">../../art/vino/bard/app_icon.ico</file>
+        <file alias="art/vino/chibi/app.png">../../art/vino/chibi/app.png</file>
+        <file alias="art/vino/chibi/app_icon.ico">../../art/vino/chibi/app_icon.ico</file>
+        <file alias="art/vino/chibi2/app.png">../../art/vino/chibi2/app.png</file>
+        <file alias="art/vino/chibi2/app_icon.ico">../../art/vino/chibi2/app_icon.ico</file>
+        <file alias="art/vino/default/app.svg">../../art/vino/default/app.svg</file>
+        <file alias="art/vino/default/app.png">../../art/vino/default/app.png</file>
+        <file alias="art/vino/default/app_icon.ico">../../art/vino/default/app_icon.ico</file>
+        <file alias="art/vino/discord/app.svg">../../art/vino/discord/app.svg</file>
+        <file alias="art/vino/discord/app_icon.ico">../../art/vino/discord/app_icon.ico</file>
+        <file alias="art/vino/extera/app.svg">../../art/vino/extera/app.svg</file>
+        <file alias="art/vino/extera/app_icon.ico">../../art/vino/extera/app_icon.ico</file>
+        <file alias="art/vino/extera2/app.svg">../../art/vino/extera2/app.svg</file>
+        <file alias="art/vino/extera2/app_icon.ico">../../art/vino/extera2/app_icon.ico</file>
+        <file alias="art/vino/nothing/app.svg">../../art/vino/nothing/app.svg</file>
+        <file alias="art/vino/nothing/app_icon.ico">../../art/vino/nothing/app_icon.ico</file>
+        <file alias="art/vino/spotify/app.svg">../../art/vino/spotify/app.svg</file>
+        <file alias="art/vino/spotify/app_icon.ico">../../art/vino/spotify/app_icon.ico</file>
+        <file alias="art/vino/win95/app.png">../../art/vino/win95/app.png</file>
+        <file alias="art/vino/win95/app_icon.ico">../../art/vino/win95/app_icon.ico</file>
+        <file alias="art/vino/yaplus/app.svg">../../art/vino/yaplus/app.svg</file>
+        <file alias="art/vino/yaplus/app_icon.ico">../../art/vino/yaplus/app_icon.ico</file>
+        <file alias="icons/vino/nocover.svg">../../icons/vino/nocover.svg</file>
+        <file alias="icons/vino/donates/boosty.svg">../../icons/vino/donates/boosty.svg</file>
+        <file alias="icons/vino/donates/ton.svg">../../icons/vino/donates/ton.svg</file>
+        <file alias="icons/vino/donates/bitcoin.svg">../../icons/vino/donates/bitcoin.svg</file>
+        <file alias="icons/vino/donates/ethereum.svg">../../icons/vino/donates/ethereum.svg</file>
+        <file alias="icons/vino/donates/solana.svg">../../icons/vino/donates/solana.svg</file>
+        <file alias="icons/vino/donates/tron.svg">../../icons/vino/donates/tron.svg</file>
+        <file alias="icons/vino/donates/support_logo.svg">../../icons/vino/donates/support_logo.svg</file>
+    </qresource>
+</RCC>
