@@ -104,7 +104,7 @@ PRIVATE
     desktop-app::external_xxhash
 
     # VinoGram filters
-    ayugram::lib_icu
+    vinogram::lib_icu
 )
 
 set(vinogram_files
