@@ -1,4 +1,4 @@
-# [VinoGram Desktop][telegram_desktop] – Telegram Fork with Material 3
+# [VinoGram Desktop][telegram_desktop] – Telegram Fork
 
 This is the complete source code for **VinoGram Desktop**, a modern fork of Telegram Desktop featuring Google Material 3 (M3) design and custom branding, based on the [Telegram API][telegram_api] and the [MTProto][telegram_proto] secure protocol.
 
